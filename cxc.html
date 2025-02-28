@@ -1,0 +1,85 @@
+<!DOCTYPE html>  <!--声明是HTML5文档-->
+<html>
+
+<head> <!--包含文档的元数据-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="wideth=device-width,initial-scale=1">
+    <title>www.ccc.com</title>
+</head>
+
+<body> <!--包含可见的页面内容-->
+    <table width="100%" height="100%" border="1"> <!--添加表格-->
+        <tr>
+            <td style = "background-color: #abcbf2; 
+                         color: rgb(20, 19, 22); 
+                         text-align: center;
+                         padding: 10px">
+                <p>欢迎访问米奇妙妙书屋</p>
+            </td>
+        </tr>
+        <tr>
+            <td style = "background-color: #ffffff; 
+                         color: rgb(0, 0, 0); 
+                         text-align: center;
+                         height: 300px;
+                         width:100px;">
+                <p>
+                    <blockquote>
+                        <p>Life is what happens when you're busy making other plans.</p>
+                        <footer>— John Lennon</footer>
+                    </blockquote>
+                </p>
+                <p>这里是米奇妙妙书屋，欢迎来到这里，这里有你喜欢的书，这里有你想要的资源，这里有你想要的帮助，这里有你想要的答案。</p>
+            </td>
+        </tr>
+        <tr>
+            <td style = "background-color: #ffffff; 
+                         color: rgb(0, 0, 0); 
+                         text-align: center;
+                         width:100px">
+                            <b href="#">设置</b> |
+                            <b href="#">首页</b> |
+                            <b href="#">图书</b> |
+                            <b href="#">新闻</b> |
+                            <b href="#">关于我们</b>
+            </td>                
+        </tr>
+        <tr>
+            <td style="background-color: #ffffff;
+                text-align: center; ">
+                <p>版权所有@妙妙米奇书屋</p>
+            </td>
+        </tr>
+    </table>
+<br>
+<!--表单示例-->
+    <form action="/" method="post"> 
+        <!--输入框示例-->
+        <label for="name">用户名:</label>
+        <input type="text" id="name" name="name" required ><br>
+        <!--密码框示例-->
+        <label for="password">密码:</label>
+        <input type="password" id="password" name="password" required ><br>
+        <!--邮箱输入框示例-->
+        <label>性别</label>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">男</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">女</label><br>
+        <!--复选框示例-->
+        <input type="checkbox" id="subscribe" name="subscribe" value="subscribe" checked>
+        <label>订阅推送信息</label> <br>
+        <!--下拉列表示例-->
+        <label for="country">国家</label>
+        <select id="country" name="country">
+            <option value="China">中国</option>
+            <option value="USA">美国</option>
+            <option value="Canada">加拿大</option>
+            <option value="UK">英国</option>
+        </select> <br>
+        <!--登录示例-->
+        <input type="submit" value="登录">
+    </form>
+</body>
+
+</html> 
